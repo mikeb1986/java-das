@@ -4,7 +4,7 @@ public class BinaryTree {
 
     public Node root;
 
-    static class Node {
+    public static class Node {
 
         public Node(int val) {
             this.val = val;
