@@ -47,7 +47,7 @@ public class Graph {
 
             graph.adjList.get(k).add(v);
             
-            if (isDirected) {
+            if (!isDirected) {
                 graph.adjList.get(v).add(k);
             }
         }
